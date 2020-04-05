@@ -1,6 +1,8 @@
-let a="When I find myself in times of trouble Mother Mary comes to me Speaking words of wisdom, let it be."
-let b;
+let a="When I find myself in times of trouble Mother Mary comes to me Speaking words of wisdom, let it be.";
 
-b=a.search(/[aeiou]/g);
+let b=[];
+
+b.pop(a.search(/[aeiou]/gi));
 
 console.log(b);
+
